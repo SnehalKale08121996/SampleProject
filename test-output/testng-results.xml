@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-24T17:43:11 IST" name="Suite" finished-at="2026-10-24T17:43:57 IST" duration-ms="45592">
+    <groups>
+    </groups>
+    <test started-at="2026-10-24T17:43:11 IST" name="Test" finished-at="2026-10-24T17:43:57 IST" duration-ms="45592">
+      <class name="LoginPage.verifyLogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPage.verifyLogoutTest@2002fc1d]" started-at="2026-10-24T17:43:48 IST" name="setup" finished-at="2026-10-24T17:43:54 IST" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validcredential()[pri:0, instance:LoginPage.verifyLogoutTest@2002fc1d]" started-at="2026-10-24T17:43:54 IST" name="validcredential" finished-at="2026-10-24T17:43:56 IST" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginPage.verifyLogoutTest@2002fc1d]" started-at="2026-10-24T17:43:56 IST" name="tearDown" finished-at="2026-10-24T17:43:57 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPage.verifyLogoutTest -->
+      <class name="LoginPage.ForgotPasswordFlowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPage.ForgotPasswordFlowTest@6200f9cb]" started-at="2026-10-24T17:43:35 IST" name="setup" finished-at="2026-10-24T17:43:41 IST" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginUser()[pri:0, instance:LoginPage.ForgotPasswordFlowTest@6200f9cb]" started-at="2026-10-24T17:43:41 IST" name="loginUser" finished-at="2026-10-24T17:43:47 IST" duration-ms="5826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginPage.ForgotPasswordFlowTest@6200f9cb]" started-at="2026-10-24T17:43:47 IST" name="tearDown" finished-at="2026-10-24T17:43:48 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPage.ForgotPasswordFlowTest -->
+      <class name="LoginPage.InvalidCredentialsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPage.InvalidCredentialsTest@38afe297]" started-at="2026-10-24T17:43:11 IST" name="setup" finished-at="2026-10-24T17:43:18 IST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidcredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPage.InvalidCredentialsTest@38afe297]" started-at="2026-10-24T17:43:19 IST" name="invalidcredential" data-provider="loginData" finished-at="2026-10-24T17:43:21 IST" duration-ms="2469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[* Incorrect username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredential -->
+        <test-method signature="invalidcredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPage.InvalidCredentialsTest@38afe297]" started-at="2026-10-24T17:43:21 IST" name="invalidcredential" data-provider="loginData" finished-at="2026-10-24T17:43:23 IST" duration-ms="2198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[* Incorrect username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredential -->
+        <test-method signature="invalidcredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginPage.InvalidCredentialsTest@38afe297]" started-at="2026-10-24T17:43:23 IST" name="invalidcredential" data-provider="loginData" finished-at="2026-10-24T17:43:26 IST" duration-ms="2356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[876]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[* Incorrect username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginPage.InvalidCredentialsTest@38afe297]" started-at="2026-10-24T17:43:26 IST" name="tearDown" finished-at="2026-10-24T17:43:26 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPage.InvalidCredentialsTest -->
+      <class name="LoginPage.validCredentialsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPage.validCredentialsTest@20d525]" started-at="2026-10-24T17:43:26 IST" name="setup" finished-at="2026-10-24T17:43:32 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validcredential()[pri:0, instance:LoginPage.validCredentialsTest@20d525]" started-at="2026-10-24T17:43:32 IST" name="validcredential" finished-at="2026-10-24T17:43:34 IST" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginPage.validCredentialsTest@20d525]" started-at="2026-10-24T17:43:34 IST" name="tearDown" finished-at="2026-10-24T17:43:35 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPage.validCredentialsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
